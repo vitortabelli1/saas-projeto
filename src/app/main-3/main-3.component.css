@@ -6,7 +6,7 @@
   
   h1 {
     font-size: 3em;
-    color: rgb(58, 57, 57);
+    color: rgb(0, 0, 0);
     margin-left:600px;
     margin-top:30px;
     font-weight: bold;
@@ -20,6 +20,7 @@
   }
   
   .lorem-text {
+    margin-top:-40px;
     font-size: 14px;
     color: #323232;
     margin-bottom: 30px; /* Espaço antes do botão */
@@ -37,7 +38,7 @@
     padding: 12px 24px;
     font-size: 16px;
     margin-left:100px;
-    margin-top: 30px;
+    margin-top: 50px;
     border: none;
     border-radius: 5px;
     background-color: #348ce4; /* Cor de fundo do botão */
