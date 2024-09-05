@@ -1,0 +1,24 @@
+/* media-queries.css */
+
+/* Estilos para telas com largura de até 480px */
+@media (max-width: 480px) {
+
+    
+    .cta-button {
+      padding: 10px 24px;
+      font-size: 15px;
+      margin-left:60px;
+      border: none;
+      border-radius: 5px;
+      background-color: #348ce4; /* Cor de fundo do botão */
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: inline-block; /* Permite que o botão seja centralizado */
+    }
+    
+    .cta-button:hover {
+      background-color: #053b75; /* Cor ao passar o mouse */
+    }
+  }
+  

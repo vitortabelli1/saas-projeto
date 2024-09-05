@@ -1,0 +1,29 @@
+/* media-queries.css */
+
+/* Estilos para telas com largura de até 480px */
+@media (max-width: 480px) {
+
+        .header-nav {
+       
+          
+        }
+      
+        .header-nav ul {
+          
+          gap: 20px; /* Reduz o espaçamento entre os itens */
+          padding: 0; /* Remove padding */
+        }
+      
+        .header-nav ul li a {
+          font-size: 12px; /* Ajusta o tamanho da fonte para telas menores */
+          display: block; /* Faz com que os links ocupem a largura total disponível */
+          margin-bottom: 5px; /* Adiciona um espaçamento entre os itens */
+        }
+      
+        .login-button {
+          padding: 8px 16px; /* Ajusta o padding para telas menores */
+          font-size: 12px; /* Ajusta o tamanho da fonte para telas menores */
+          margin-top: -4px; /* Adiciona um espaçamento acima do botão */
+        }
+  }
+  
