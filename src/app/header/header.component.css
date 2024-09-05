@@ -1,0 +1,42 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5d9cdc;
+    padding: 10px 20px;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-nav ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fdfcfc;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .header-nav ul li a:hover {
+    color: #ffd700; /* Altere a cor do texto no hover */
+    text-decoration: underline; /* Adiciona um sublinhado no hover */
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #18507d;
+    color: #eeeff0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #07223d; /* Cor de fundo ao passar o mouse */
+    color: #fdfcfc; /* Cor do texto ao passar o mouse */
+  }
