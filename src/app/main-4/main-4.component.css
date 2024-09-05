@@ -1,7 +1,7 @@
 .main-content {
     text-align: center;
     padding: 50px;
-    background-color: #007aff; /* Cor de fundo azul */
+    background: linear-gradient(to bottom, #2578d2, #003d7a);
     color: white; /* Cor do texto */
   }
   
@@ -26,7 +26,7 @@
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #005bb5; /* Cor de fundo do botão */
+    background-color: #348ce4; /* Cor de fundo do botão */
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;

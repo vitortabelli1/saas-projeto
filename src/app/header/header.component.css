@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007aff; /* Cor de fundo azul */
+    background-color: #2578d2; /* Cor de fundo azul */
     padding: 10px 20px;
   }
   
@@ -28,12 +28,13 @@
   .login-button {
     padding: 10px 20px;
     font-size: 13px;
-    border: none;
+    border: 1px solid white;
+    font-weight: bold;
     border-radius: 5px;
-    background-color: #18507d;
+    background-color: #6cb5ff; /* Cor de fundo do botão */
     color: #eeeff0;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.4s ease, color 0.3s ease;
   }
   
   .login-button:hover {

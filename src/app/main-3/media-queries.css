@@ -1,0 +1,32 @@
+/* media-queries.css */
+
+/* Estilos para telas com largura de até 480px */
+@media (max-width: 480px) {
+    .main-container {
+      margin-left:-440px;
+      padding: 20px; 
+    }
+    
+    .alternative-container {
+      margin-top: 20px; /* Ajuste a margem conforme necessário */
+      margin-left: 0; /* Remover margem esquerda se necessário */
+      text-align: right;
+    }
+    
+    .cta-button-2 {
+     margin-right:80px;/* Centraliza o botão horizontalmente */
+      display: block;
+    }
+  
+    /* Ajuste o tamanho do texto se necessário */
+    h1 {
+      font-size: 51px;
+   
+    }
+    
+    .lorem-text {
+      font-size: 14px; /* Ajuste o tamanho do texto se necessário */
+      margin-left: 50px; /* Remover margem esquerda */
+    }
+  }
+  

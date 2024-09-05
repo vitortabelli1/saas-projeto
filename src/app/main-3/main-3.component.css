@@ -1,13 +1,14 @@
 .main-container {
     text-align: center;
-    padding: 50px;
-    background-color: #f0f1f3; /* Cor de fundo */
+    padding: 40px;
+    background-color: white;/* Cor de fundo */
   }
   
   h1 {
     font-size: 3em;
     color: rgb(58, 57, 57);
-    margin-left:400px;
+    margin-left:600px;
+    margin-top:30px;
     font-weight: bold;
   }
   
@@ -22,28 +23,30 @@
     font-size: 14px;
     color: #323232;
     margin-bottom: 30px; /* Espaço antes do botão */
+    margin-left:700px;
   }
   
   .alternative-container {
     margin-top: -90px;
     padding: 50px;
-    background-color: #f0f1f3; /* Cor de fundo */ /* Cor de fundo */
-    text-align: right;
+    background-color: white; /* Cor de fundo */ /* Cor de fundo */
+    margin-left: 640px;
   }
   
   .cta-button-2 {
     padding: 12px 24px;
     font-size: 16px;
+    margin-left:100px;
+    margin-top: 30px;
     border: none;
-
     border-radius: 5px;
-    background-color: #095eba; /* Cor de fundo do botão */
+    background-color: #348ce4; /* Cor de fundo do botão */
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
-  .cta-button:hover {
+  .cta-button-2:hover {
     background-color: #053b75; /* Cor ao passar o mouse */
   }
   
