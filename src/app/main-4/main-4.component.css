@@ -1,0 +1,38 @@
+.main-content {
+    text-align: center;
+    padding: 50px;
+    background-color: #007aff; /* Cor de fundo azul */
+    color: white; /* Cor do texto */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description-text {
+    font-size: 16px;
+    margin-bottom: 30px; /* Espaço antes do botão */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .custom-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #005bb5; /* Cor de fundo do botão */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #003d7a; /* Cor ao passar o mouse */
+  }
+  
