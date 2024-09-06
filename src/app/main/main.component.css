@@ -1,60 +1,65 @@
 .main-container {
-    text-align: center;
-    padding: 50px;
-    background: linear-gradient(to bottom, #2578d2, #003d7a);
-    
-  }
-  
-  .background-image {
-    position: absolute; /* Posiciona a imagem em relação ao contêiner pai */
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    object-fit: cover; /* Faz a imagem cobrir o contêiner */
-    z-index: 1; /* Garante que a imagem fique atrás do conteúdo */
-   
-  }
-  
+  position: relative; /* Necessário para que a .background-container seja posicionada corretamente */
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to bottom, #2578d2, #003d7a);
+}
 
-  h1 {
-    font-size: 3em;
-    color: white;
-    text-align: left;
-    font-weight: bold;
-  }
-  
-  p {
-    font-size: 30px;
-    color: #f4f2f2;
-    text-align: left;
-    font-weight: bold;
-  }
+.background-container {
+  position: absolute; /* Permite que o elemento seja posicionado em relação ao seu contêiner pai */
+  top: 0; /* Ajusta a posição superior conforme necessário */
+  left: 0; /* Ajusta a posição esquerda conforme necessário */
+  width: 100%; /* Ajuste a largura para cobrir toda a área desejada */
+  height: 100%; /* Ajuste a altura para cobrir toda a área desejada */
+  background-image: url('/assets/images/naruto.jpeg'); /* Caminho relativo à pasta assets */
+  background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  z-index: 1; /* Garante que a imagem fique atrás do conteúdo principal */
+}
 
-  .main-container-1 {
-    padding: 50px;
-    background-color: black;
-  }
-  .lorem-text {
-    font-size: 14px;
-    color: #e6e4e4;
-    margin-bottom: 30px; /* Espaço antes do botão */
-  
-  }
-  
-  .cta-button {
-    padding: 12px 24px;
-    font-size: 16px;
-    margin-right:930px;
-    border: none;
-    border-radius: 5px;
-    top:500px;
-    background-color: #348ce4; /* Cor de fundo do botão */
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-button:hover {
-    background-color: #053b75; /* Cor ao passar o mouse */
-  }
+h1 {
+  font-size: 3em;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  position: relative; /* Garante que o título fique sobre a imagem de fundo */
+  z-index: 2; /* Garante que o título fique acima da imagem de fundo */
+}
+
+p {
+  font-size: 30px;
+  color: #f4f2f2;
+  text-align: left;
+  font-weight: bold;
+  position: relative; /* Garante que o parágrafo fique sobre a imagem de fundo */
+  z-index: 2; /* Garante que o parágrafo fique acima da imagem de fundo */
+}
+
+.main-container-1 {
+  padding: 50px;
+  background-color: black;
+}
+
+.lorem-text {
+  font-size: 14px;
+  color: #e6e4e4;
+  margin-bottom: 30px; /* Espaço antes do botão */
+}
+
+.cta-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #348ce4; /* Cor de fundo do botão */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative; /* Garante que o botão fique sobre a imagem de fundo */
+  z-index: 2; /* Garante que o botão fique acima da imagem de fundo */
+}
+
+.cta-button:hover {
+  background-color: #053b75; /* Cor ao passar o mouse */
+}

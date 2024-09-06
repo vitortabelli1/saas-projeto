@@ -30,6 +30,7 @@
     font-size: 13px;
     border: 1px solid white;
     font-weight: bold;
+    margin-left:660px;
     border-radius: 5px;
     background-color: #6cb5ff; /* Cor de fundo do botão */
     color: #eeeff0;
@@ -39,5 +40,21 @@
   
   .login-button:hover {
     background-color: #07223d; /* Cor de fundo ao passar o mouse */
+    color: #fdfcfc; /* Cor do texto ao passar o mouse */
+  }
+  .login2button {
+    padding: 10px 20px;
+    font-size: 13px;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #e0ef14; /* Cor de fundo do botão */
+    color: #242424;
+    cursor: pointer;
+    transition: background-color 0.4s ease, color 0.3s ease;
+  }
+  
+  .login2button:hover {
+    background-color: #656509; /* Cor de fundo ao passar o mouse */
     color: #fdfcfc; /* Cor do texto ao passar o mouse */
   }
